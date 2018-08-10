@@ -32,8 +32,8 @@ class River
     @discharge
   end
   
-  def discharge=(new_discharge)
-    @discharge=new_discharge
+  def discharge=(actions)
+    @discharge=actions
   end
   
 end
