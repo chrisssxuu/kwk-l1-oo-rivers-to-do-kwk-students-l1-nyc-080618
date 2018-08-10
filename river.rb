@@ -6,4 +6,14 @@ class River
   def name
     @name
   end
+  def length
+    @length
+  end
+  def countries
+    @countries
+  end
+  def discharge
+    @discharge
+  end
+  
 end
