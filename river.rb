@@ -41,3 +41,8 @@ class River
 end
 
 river_one = River.new("The Nile")
+river_two = River.new("The Mississippi")
+river_three = River.new("The Amazon")
+river_four = River.new("The Seine")
+river_five = River.new("The Yangtze")
+river_six = River.new("The Euphrates")
