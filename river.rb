@@ -32,6 +32,10 @@ class River
     @discharge
   end
   
+  def discharge(num)
+    @discharge=num
+  end
+  
   def discharge=(actions)
     if actions == "flood"
       @discharge = (discharge * 1.3)
