@@ -38,5 +38,6 @@ class River
     elsif actions == "dry_up"
       @discharge = discharge * 0.5
   end
-  
 end
+
+river_one = River.new("The Nile")
