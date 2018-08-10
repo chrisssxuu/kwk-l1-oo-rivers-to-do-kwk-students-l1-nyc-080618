@@ -32,6 +32,10 @@ class River
     @discharge
   end
   
+  def discharge(num)
+    @discharge=num
+  end
+  
   def flood(actions)
     @flood = (@discharge * 1.3)
   end 
