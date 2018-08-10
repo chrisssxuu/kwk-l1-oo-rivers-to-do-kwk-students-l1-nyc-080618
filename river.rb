@@ -17,13 +17,23 @@ class River
   end
   
   def length=(new_length)
-end
-  def countries
-    @countries
+    @length=new_length
   end
+  
+  def countries
+    @length
+  end
+  
+  def countries=(new_countries)
+    @countries=new_countries
+  end
+  
   def discharge
     @discharge
   end
-  def discharge=(actions)
+  
+  def discharge=(new_discharge)
+    @discharge=new_discharge
+  end
   
 end
