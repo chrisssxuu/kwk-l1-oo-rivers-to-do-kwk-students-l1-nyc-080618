@@ -21,7 +21,7 @@ class River
   end
   
   def countries
-    @length
+    @countries
   end
   
   def countries=(new_countries)
