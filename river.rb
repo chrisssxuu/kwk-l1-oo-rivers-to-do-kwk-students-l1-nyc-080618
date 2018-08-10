@@ -15,5 +15,6 @@ class River
   def discharge
     @discharge
   end
+  def discharge=(actions)
   
 end
