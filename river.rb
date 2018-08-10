@@ -32,7 +32,7 @@ class River
     @discharge
   end
   
-  def discharge(num)
+  def discharge=(num)
     @discharge=num
   end
   
