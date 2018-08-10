@@ -37,6 +37,7 @@ class River
       @discharge = discharge * 1.3
     elsif actions == "dry_up"
       @discharge = discharge * 0.5
+    end
   end
 end
 
